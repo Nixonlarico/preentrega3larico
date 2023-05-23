@@ -1,0 +1,343 @@
+* {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  background-color: #1e1246;
+}
+header .encabezadora div {
+  background-color: red;
+  text-align: center;
+}
+header .encabezadora div p {
+  color: white;
+  font-size: 19px;
+}
+header .navbar2 {
+  display: flex;
+  justify-content: space-around;
+  height: 150px;
+}
+header .navbar2 .logotipo img {
+  margin-top: 30px;
+  width: 70px;
+}
+header .navbar2 .navbar {
+  text-decoration-color: none;
+  color: white;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  gap: 18px;
+  align-content: center;
+  margin-top: 60px;
+}
+header .navbar2 .navbar li {
+  font-size: 23px;
+}
+header .navbar2 .buscador2 {
+  margin-top: 65px;
+}
+
+footer {
+  color: white;
+  background-color: #245ba7;
+  margin-top: 15px;
+}
+footer section {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  height: 180px;
+}
+footer section .footson {
+  text-align: center;
+  font-size: 23px;
+  margin-top: 50px;
+}
+footer section .redessocialesdad {
+  flex-direction: column;
+  width: 200px;
+  margin-top: 60px;
+}
+
+.maindad .titulo {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.maindad div {
+  font-size: 19px;
+  text-align: center;
+}
+.maindad div h2 {
+  font-size: 24px;
+  color: white;
+  height: 40px;
+  background-color: #245ba7;
+}
+.maindad div .formaspago {
+  display: flex;
+}
+.maindad div .formaspago div {
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.maindad div .formaspago div .ULPRE {
+  width: auto;
+  font-size: 23px;
+}
+.maindad div .formas {
+  margin-bottom: 40px;
+}
+.maindad div .formas .h2preguntas {
+  font-size: 24px;
+  color: white;
+  height: 40px;
+  background-color: #245ba7;
+}
+
+main .titulocate {
+  margin-top: 40px;
+}
+main .titulocate h1 {
+  text-align: center;
+  font-size: 45px;
+}
+main .titulocate .grid {
+  display: grid;
+  grid-template-columns: 40px 400px 40px 400px 40px 400px 40px;
+  grid-template-rows: 40px 300px 40px 300px 40px;
+  justify-content: center;
+}
+main .titulocate .grid .item1 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color: white;
+}
+main .titulocate .grid .item1 h2 {
+  position: absolute;
+  margin: 130px 0px 0px 180px;
+}
+main .titulocate .grid .item2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color: white;
+}
+main .titulocate .grid .item2 h2 {
+  position: absolute;
+  margin: 130px 0px 0px 180px;
+}
+main .titulocate .grid .item3 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  color: white;
+}
+main .titulocate .grid .item3 h2 {
+  position: absolute;
+  margin: 130px 0px 0px 180px;
+}
+main .titulocate .grid .item4 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  color: white;
+}
+main .titulocate .grid .item4 h2 {
+  position: absolute;
+  margin: 130px 0px 0px 180px;
+}
+main .titulocate .grid .item5 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  color: white;
+}
+main .titulocate .grid .item5 h2 {
+  position: absolute;
+  margin: 130px 0px 0px 180px;
+}
+main .titulocate .grid .item6 {
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 4;
+  grid-row-end: 5;
+  color: white;
+}
+main .titulocate .grid .item6 h2 {
+  position: absolute;
+  margin: 130px 0px 0px 180px;
+}
+
+a:visited {
+  color: white;
+}
+
+main section .responsivetitle {
+  text-align: center;
+  margin-top: 25px;
+}
+
+@media (min-width: 1440px) {
+  .responsive {
+    display: flex;
+    justify-content: space-around;
+    font-size: 24px;
+    width: 750px;
+    margin-top: 24px;
+  }
+  .responsivetext {
+    width: 100%;
+    text-align: center;
+  }
+  .formresponsive {
+    align-items: center;
+    width: 450px;
+    margin-right: 200px;
+    text-align: center;
+    align-content: center;
+  }
+  .preguntas {
+    height: 800px;
+    width: 1000px;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 200px;
+  }
+  .maindad {
+    height: auto;
+    width: 1110px;
+  }
+}
+@media (min-width: 1024px) {
+  .responsive {
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    width: 550px;
+    margin-top: 24px;
+  }
+  .preguntas {
+    height: 800px;
+    width: 1000px;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .responsivesection {
+    width: 400px;
+  }
+  .mainresponsive {
+    display: flex;
+    justify-content: space-around;
+    height: 600px;
+  }
+  .responsivetext {
+    text-align: center;
+  }
+  .formularioresponsive {
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .navbaresponsive {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 22px;
+  }
+  .preguntas {
+    height: 800px;
+    width: 320px;
+    font-size: 19px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 10px;
+  }
+  .responsivebuscador {
+    margin-top: 45px;
+    text-align: center;
+  }
+  .nosotrosresponsive {
+    font-size: 34px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+  }
+  .nosotrosresponsivedos {
+    font-size: 23px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .responsive {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    margin-top: 24px;
+    text-decoration: none;
+  }
+  .maindad {
+    width: 320px;
+    text-align: center;
+    justify-content: center;
+  }
+}
+@media (min-width: 320px) {
+  .navbaresponsive {
+    display: flex;
+    flex-direction: column;
+  }
+  .responsivetext {
+    text-align: center;
+  }
+  .formularioresponsive {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    gap: 15px;
+  }
+  .nosotrosresponsive {
+    font-size: 30px;
+  }
+  .responsive {
+    text-align: center;
+  }
+  .responsivesection {
+    text-align: center;
+  }
+  .responsivelogo {
+    text-align: center;
+  }
+  .responsivebuscador {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .footerresponsive {
+    font-size: 13px;
+  }
+  .preguntas {
+    width: 320px;
+  }
+  .formaspago {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
